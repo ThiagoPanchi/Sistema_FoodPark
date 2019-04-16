@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Aula 11 - Lógica de Programação </title>
+  <script type="text/javascript">
+
+    function botao() {
+      var mensagem = document.getElementById("textoMensagem");
+      alert(mensagem.innerHTML);
+
+      var input1 = document.getElementById("input1");
+      alert(input1.value);
+      console.log("texto: "+input1.value);
+
+      /*var a1 = prompt("Insira um texo.");
+      alert("você digitou: "+ a1);*/ 
+    }
+
+  </script>
+</head>
+  <body>
+    <div id="textoMensagem">
+      Bem vindo 11a aula de lógica de programação.
+    </div>
+
+    <input type="text" id="input1"/>
+
+    <button onclick="botao()"> Clique Aqui. </button>
+
+  </body>
+</html>
